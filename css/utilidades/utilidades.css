@@ -1,0 +1,22 @@
+.container {
+  max-width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.botao {
+  cursor: pointer;
+  background: rgb(47,9,1);
+  background: linear-gradient(90deg, rgba(47,9,1,1) 0%, rgba(121,29,9,1) 38%, rgba(238,34,17,1) 96%);
+  padding: 15px 40px;
+  border-radius: 4px;
+  color: var(--white-0);
+  transition: 0.3s;
+  border: none;
+}
+
+.botao:hover {
+  transform: scale(1.1);
+}

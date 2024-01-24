@@ -1,0 +1,33 @@
+html{
+  scroll-behavior: smooth;
+}
+
+button{
+  border: none;
+  border-color: none;
+  background-color: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+a{
+  color: var(--black-0);
+}
+
+body{
+  text-decoration: none;
+  list-style: none;
+  background-color: #090808;
+  color: var(--black-0);
+}
+
+ul{
+  list-style: none;
+}

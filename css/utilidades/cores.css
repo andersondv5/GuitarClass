@@ -1,0 +1,82 @@
+:root{
+  --red-0: #FF5F5F;
+  --red-1: #ee2211;
+  --red-2: #ee2211;
+  --red-3: #C91908;
+  --red-4: #9D1407;
+  --red-5: #561E06;
+
+  --blue: #1B98E0;
+
+  --white-0: #FFFFFF;
+  --white-1: #F5F6FA;
+  
+  --gray-0: #7E7E7E;
+  --gray-1: #595959;
+
+  --black-0: #1E1919;
+  --black-1: #434A54;
+}
+
+/* RED-COLORS */
+.red-0{
+  color: var(--red-0);
+}
+
+.red-1{
+  color: var(--red-1);
+}
+
+.red-2{
+  color: var(--red-2);
+}
+
+.red-3{
+  color: var(--red-3);
+}
+
+.red-4{
+  color: var(--red-4);
+}
+
+.red-5{
+  color: var(--red-5);
+}
+/* END RED-COLORS */
+
+/* BLUE COLOR */
+.blue{
+  color: var(--blue);
+}
+/* END BLUE COLOR */
+
+
+/* WHITE COLORS */
+.white-0{
+  color: var(--white-0);
+}
+
+.white-1{
+  color: var(--white-1);
+}
+/* END WHITE COLORS */
+
+/* GRAY COLORS */
+.gray-0{
+  color: var(--gray-0);
+}
+
+.gray-1{
+  color: var(--gray-1);
+}
+/* GRAY COLORS */
+
+/* BLACK COLORS */
+.black-0{
+  color: var(--black-0);
+}
+
+.black-1{
+  color: var(--black-1);
+}
+/* BLACK COLORS */

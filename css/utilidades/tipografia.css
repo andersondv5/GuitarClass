@@ -1,0 +1,63 @@
+/* FONTES GRANDES */
+.font-g {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 46px;
+}
+
+.font-gl {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+}
+
+.font-gg {
+  font-size: 88px;
+  font-weight: 700;
+}
+
+/* FONTES MÉDIAS */
+
+.font-m {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.font-ml {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.font-mm {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.font-mg {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+/* FONTES PEQUENAS */
+
+.font-p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.font-pl {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.font-pp {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+}
