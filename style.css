@@ -18,3 +18,8 @@
 @import "./css/home/depoimentos.css";
 @import "./css/home/servicos.css";
 @import "./css/home/sobre.css";
+
+/* AGENDA */
+@import "./css/agenda/agenda.css";
+
+

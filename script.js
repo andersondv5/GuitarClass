@@ -18,3 +18,7 @@ btnMobile.addEventListener("click", toggleMenu);
 btnMobile.addEventListener("toushstart", toggleMenu);
 
 //FIM MENU MOBILE
+
+//ANIMAE SCROLL
+
+AOS.init();

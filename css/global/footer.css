@@ -1,17 +1,38 @@
-.footer-bg img{
+.footer-bg img {
+  object-fit: cover;
   width: 100%;
+}
+
+.logo {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.logo img {
   object-fit: contain;
 }
 
-.footer-grid{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+.copy {
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
 
-.footer-conteudo {
-  padding: 40px 0;
-}
 
-.footer-conteudo{
-  text-align: center;
+@media (max-width: 430px) {
+
+  .logo{
+    padding-top: 10px;
+  }
+
+  .footer-logo{
+    width: 5rem;
+  }
+  .copy span{
+    font-size: 4px;
+  }
+
+  .copy {
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
 }

@@ -1,0 +1,116 @@
+.pacotes-bg {
+  background-color: var(--white-1);
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#agenda h1,
+#agenda p {
+  text-align: center;
+}
+
+#agenda p{
+  padding-top: 34px;
+}
+
+#agenda p {
+  flex-direction: 1;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.pacotes {
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  text-align: center;
+}
+
+.pacotes-item {
+  cursor: pointer;
+  background-color: var(--white-0);
+  padding: 30px;
+  border-radius: 4px;
+  border: 1px solid #efefef;
+}
+
+.pacotes-item ul {
+  padding-top: 14px;
+}
+
+.pacotes-item li {
+  padding-bottom: 8px;
+  padding-top: 4px;
+  border-bottom: 2px solid var(--white-1);
+}
+
+.pacotes-item h2 {
+  padding-top: 14px;
+}
+
+.pacotes-item span {
+  display: inline-block;
+  width: 20ch;
+  padding: 14px 0;
+}
+
+.pacotes-item{
+  transition: .3s;
+}
+
+.pacotes-item:hover{
+  transform: scale(1.1);
+}
+
+.pacotes-item button {
+  cursor: pointer;
+  background: rgb(47, 9, 1);
+  background: linear-gradient(
+    90deg,
+    rgb(111, 27, 10) 0%,
+    rgb(164, 58, 34) 38%,
+    rgba(238, 34, 17, 1) 96%
+  );
+  border-radius: 4px;
+  padding: 12px 20px;
+  transition: 0.2s;
+}
+
+.pacotes-item button:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+.pacotes-item button > a {
+  color: var(--white-0);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media (max-width: 920px){
+  .pacotes{
+    display: grid;
+    padding: 40px 0;
+  }
+}
+
+@media (max-width: 420px){
+
+  #agenda h1{
+    font-size: 38px;
+  }
+  .pacotes-bg {
+    background-color: var(--white-1);
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+
+  .pacotes-item{
+    padding: 30px 80px;
+  }
+
+  .pacotes-item h2 {
+    padding-top: 8px;
+  }
+}

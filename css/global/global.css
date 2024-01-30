@@ -1,8 +1,22 @@
-html{
+html {
   scroll-behavior: smooth;
 }
 
-button{
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #040404;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--red-2);
+  border-radius: 20px;
+  border: 2px solid var(--red-2);
+}
+
+button {
   border: none;
   border-color: none;
   background-color: none;
@@ -10,25 +24,72 @@ button{
   padding: 0px;
 }
 
-*{
+* {
   margin: 0px;
   padding: 0px;
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
 }
 
-a{
+a {
   color: var(--black-0);
 }
 
-body{
+body {
   text-decoration: none;
   list-style: none;
-  background-color: #111111;
+  background-color: #040404;
   color: #ffff;
-  height: 3000px;
 }
 
-ul{
+ul {
   list-style: none;
+}
+
+.btn-whatsapp {
+  position: fixed;
+  bottom: 14px;
+  right: 24px;
+  z-index: 99;
+  transition: 0.4s;
+}
+
+.btn-whatsapp img {
+  max-width: 74px;
+  transition: 0.4s;
+}
+
+.btn-whatsapp img:hover {
+  transform: scale(1.1);
+}
+
+.tooltip-text{
+  transition: .2s;
+}
+
+.btn-whatsapp .tooltip-text {
+  visibility: hidden;
+  position: absolute;
+  width: 120px;
+  top: 20px;
+  left: -144px;
+  padding: 6px;
+  border-radius: 4px;
+  text-align: center;
+  background-color: var(--black-0);
+  color: var(--gray-2);
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+
+.btn-whatsapp:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+  transition: .2s;
+}
+
+@media (max-width: 700px){
+  .btn-whatsapp img{
+    width: 64px;
+  }
 }

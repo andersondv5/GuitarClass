@@ -4,14 +4,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Anderson</title>
-  <link rel="shortcut icon" href="./img/imagens/favicon.svg" type="image.svg">
+  <title>Anderson | Aulas de Violão</title>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="shortcut icon" href="./img/imagens/favicon-2.svg" type="image.svg">
   <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 </head>
 
 <body>
   <header class="header-bg" id="header">
-    <div class="header container">
+    <div data-aos="fade-down" class="header container">
      <img src="./img/imagens/MARCA.svg" alt="">
       <nav class="nav" id="nav">
         <button id="btn-mobile">
@@ -20,29 +22,34 @@
         <ul class="menu font-ml" id="menu">
           <li><a href="#home">Home</a></li>
           <li><a href="#sobre">Sobre</a></li>
-          <li><a href="agenda.html" class="agenda">Agenda Online</a></li>
+          <li><a href="#agenda" class="agenda">Agenda Online</a></li>
         </ul>
       </nav>
     </div>
-    <div class="introducao-bg">
-      <img class="logo" src="./img/imagens/logo.svg" alt="">
-      <div class="introducao-conteudo container">
+    <div class="introducao-bg" id="home">
+      <img data-aos="fade-up"
+      data-aos-anchor="#example-anchor"
+      data-aos-offset="500"
+      data-aos-duration="500" class="logo" src="./img/imagens/logo.svg" alt="">
+      <div data-aos="zoom-in"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine" class="introducao-conteudo container">
         <h1 class="white-1">Aprenda a tocar violão <br>
           do zero ao avançado.</h1>
         <p class="gray-2">Aulas de presenciais com instrutor Anderson Silva</p>
-        <button class="botao"><a href="https://api.whatsapp.com/send?phone=5583998363906&text=Ol%C3%A1,%20Anderson!%20Vim%20pelo%20seu%20site%20e%20tenho%20interesse%20em%20saber%20mais%20sobre%20as%20aulas." target="_blank">Agendar Aula</a></button>
+        <button class="botao"><a href="https://api.whatsapp.com/send?phone=5583998363906&text=Ol%C3%A1,%20Anderson!%20Vim%20atrav%C3%A9s%20do%20seu%20site%20e%20gostei%20muito%20do%20seu%20trabalho.%20Como%20fa%C3%A7o%20para%20agendar%20uma%20aula%20com%20voc%C3%AA?" target="_blank">Agendar Aula</a></button>
       </div>
     </div>
   </header>
 
 
   <!-- SOBRE -->
-  <main class="sobre">
+  <main  class="sobre" id="sobre">
     <div class="container sobre-conteudo">
-      <div>
+      <div data-aos="fade-right">
         <img src="./img/imagens/sobre-images.svg" alt="">
       </div>
-      <div class="sobre-descricao">
+      <div data-aos="fade-left" class="sobre-descricao">
         <h1 class="white-0 font-gl">SOBRE<span class="red-1">.</span></h1>
         <p class="font-m">Olá, me chamo <strong>Anderson</strong>! Seja bem vindo ao meu portfólio musical. Aqui você confere meu trabalho com professor de música e irá decidir que <strong>você será meu aluno</strong>! Agende já a sua primeira aula!</p>
         <span class="font-m">Aulas presencias de Segunda à Sexta</span>
@@ -52,35 +59,101 @@
 
   <section class="servicos-bg">
     <div class="container servicos-conteudo">
-      <h1 class="font-gl black-0">SERVIÇOS<span class="red-1">.</span></h1>
-      <p class="font-m black-1">Explore os incríveis serviços musicais agora disponíveis para você! Comece já sua jornada musical.</p>
+      <h1 data-aos="zoom-in" class="font-gl black-0">SERVIÇOS<span class="red-1">.</span></h1>
+      <p data-aos="zoom-in" class="font-m black-1">Explore os incríveis serviços musicais agora disponíveis para você! Comece já sua jornada musical.</p>
     </div>
 
     <div class="servicos-images container">
-      <div class="images">
+      <div class="images" data-aos="fade-up">
         <img src="./img/imagens/servicos-1.jpg" alt="">
         <div class="servicos-titulo">
           <h2 class="black-0">Aulas Presenciais</h2>
-          <button><a href="">Saiba mais</a></button>
         </div>
       </div>
-      <div class="images">
-        <img src="./img/imagens/servicos-2.jpg" alt="">
+      <div class="images" data-aos="fade-down">
+      <img src="./img/imagens/servicos-2.jpg" alt="">
         <div class="servicos-titulo">
           <h2 class="black-0">Violão Popular</h2>
-          <button><a href="">Saiba mais</a></button>
         </div>
 
       </div>
-      <div class="images">
+      <div class="images" data-aos="fade-right">
         <img src="./img/imagens/servicos-3.jpg" alt="">
         <div class="servicos-titulo">
           <h2 class="black-0">Aulas em Dupla</h2>
-          <button><a href="">Saiba mais</a></button>
         </div>
       </div>
     </div>
   </section>
+
+  <section class="pacotes-bg" id="agenda">
+    <h1 data-aos="zoom-in" class="font-gl black-0">AGENDA ONLINE<span class="red-1">.</span></h1>
+    <p data-aos="zoom-in" class="font-m black-1">Agende uma aula comigo e conheça os benefícios de ser meu aluno!</p>
+    <div data-aos="zoom-in" class="pacotes container">
+      <div class="pacotes-item">
+        <h2 class="black-0 font-g">BÁSICO</h2>
+        <ul class="font-m black-1">
+          <li>Uma aula por semana</li>
+          <li>Aulas presenciais</li>
+          <li>40min de aula</li>
+          <li>Válido por um mês</li>
+        </ul>
+        <h2 class="gray-1">R$ 90</h2>
+        <span class="blue">Desconto <strong>Básico</strong> para aulas em dupla</span>
+        <div class="assinar">
+          <button><a href="https://api.whatsapp.com/send?phone=5583998363906&text=Ol%C3%A1,%20Anderson!%20Vim%20atrav%C3%A9s%20do%20seu%20site%20e%20tenho%20interesse%20em%20contratar%20o%20Pacote%20B%C3%A1sico.%20Como%20fa%C3%A7o%20para%20agendar%20minha%20primeira%20aula%20com%20voc%C3%AA?" target="_blank">Assinar Básico</a></button>
+        </div>
+      </div>
+
+      <div class="pacotes-item">
+        <h2 class="black-0 font-g">PADRÃO</h2>
+        <ul class="font-m gray-1">
+          <li>Duas aula por semana</li>
+          <li>Aulas presenciais</li>
+          <li>1h de aula</li>
+          <li>Válido por um mês</li>
+        </ul>
+        <h2 class="gray-1">R$ 120</h2>
+        <span class="blue">Desconto <strong>Padrão</strong> para aulas em dupla</span>
+        <div class="assinar">
+          <button><a href="https://api.whatsapp.com/send?phone=5583998363906&text=Ol%C3%A1,%20Anderson!%20Vim%20atrav%C3%A9s%20do%20seu%20site%20e%20tenho%20interesse%20em%20contratar%20o%20Pacote%20Padr%C3%A3o.%20Como%20fa%C3%A7o%20para%20agendar%20minha%20primeira%20aula%20com%20voc%C3%AA?" target="_blank">Assinar Padrão</a></button>
+        </div>
+      </div>
+
+      <div class="pacotes-item">
+        <h2 class="black-0 font-g">PREMIUM</h2>
+        <ul class="font-m black-1">
+          <li>Três aula por semana</li>
+          <li>Aulas presenciais</li>
+          <li>1h45min de aula</li>
+          <li>Válido por um mês</li>
+        </ul>
+        <h2 class="gray-1">R$ 160</h2>
+        <span class="blue">Desconto <strong>PREMIUM</strong> para aulas em dupla</span>
+        <div class="assinar">
+          <button><a href="https://api.whatsapp.com/send?phone=5583998363906&text=Ol%C3%A1,%20Anderson!%20Vim%20atrav%C3%A9s%20do%20seu%20site%20e%20tenho%20interesse%20em%20contratar%20o%20Pacote%20Premium.%20Como%20fa%C3%A7o%20para%20agendar%20minha%20primeira%20aula%20com%20voc%C3%AA?" target="_blank">Assinar Premium</a></button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+ 
+  <div class="footer-bg">
+    <img src="./img/imagens/bg-footersvg.svg" alt="">
+   </div>
+
+  <footer class="logo container">
+    <img class="footer-logo" src="./img/imagens/logo.svg" alt="">
+    <div class="copy">
+      <span class="font-pl">Copyright© 2024 | <strong class="red-3">Anderson Silva</strong>  - Todos os direitos reservados.</span>
+    </div>
+  </footer>
+
+  <a data-aos="fade-up" href="https://api.whatsapp.com/send?phone=5583998363906&text=Ol%C3%A1,%20Anderson!%20Vim%20atrav%C3%A9s%20do%20seu%20site%20e%20gostei%20muito%20do%20seu%20trabalho.%20Como%20fa%C3%A7o%20para%20agendar%20uma%20aula%20com%20voc%C3%AA?" target="_blank""
+  class="btn-whatsapp">
+    <img src="./img/imagens/whatsapp.svg" alt="">
+    <span class="tooltip-text">Agende uma aula</span>
+  </a>
 
   <script src="script.js"></script>
 </body>

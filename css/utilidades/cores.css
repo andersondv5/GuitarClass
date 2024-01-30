@@ -6,7 +6,7 @@
   --red-4: #9D1407;
   --red-5: #561E06;
 
-  --blue: #1B98E0;
+  --blue: #07AE68;
 
   --white-0: #FFFFFF;
   --white-1: #F5F6FA;
@@ -73,6 +73,10 @@
 
 .gray-1{
   color: var(--gray-1);
+}
+
+.gray-2{
+  color: var(--gray-2);
 }
 /* GRAY COLORS */
 

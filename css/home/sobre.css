@@ -1,5 +1,6 @@
 .sobre {
   background-color: #040404;
+  padding-top: 80px;
 }
 
 
@@ -16,6 +17,8 @@
 
 .sobre-descricao {
   padding-top: 120px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .sobre-descricao p {
@@ -45,7 +48,7 @@
   }
 }
 
-@media (max-width: 620px) {
+@media (max-width: 630px) {
   .sobre-conteudo img{
     width: 25rem;
   }
