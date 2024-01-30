@@ -7,12 +7,6 @@
   text-align: center;
 }
 
-.introducao-conteudo {
-  padding-top: 40px;
-  text-align: center;
-  margin: auto;
-}
-
 .introducao-conteudo h1 {
   font-size: 48px;
   line-height: 150%;
@@ -31,6 +25,7 @@
   font-weight: 600;
   color: var(--white-0);
 }
+
 
 @media (max-width: 1000px) {
   .introducao-bg {
