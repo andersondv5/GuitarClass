@@ -2,7 +2,7 @@
   --red-0: #FF5F5F;
   --red-1: #ee2211;
   --red-2: #ee2211;
-  --red-3: #C91908;
+  --red-3: #CD3A2E;
   --red-4: #9D1407;
   --red-5: #561E06;
 
@@ -13,8 +13,9 @@
   
   --gray-0: #7E7E7E;
   --gray-1: #595959;
+  --gray-2: #9CA3AF;
 
-  --black-0: #1E1919;
+  --black-0: #080909;
   --black-1: #434A54;
 }
 
@@ -64,6 +65,10 @@
 /* GRAY COLORS */
 .gray-0{
   color: var(--gray-0);
+}
+
+.gray-1{
+  color: var(--gray-1);
 }
 
 .gray-1{

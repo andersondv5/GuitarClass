@@ -24,8 +24,9 @@ a{
 body{
   text-decoration: none;
   list-style: none;
-  background-color: #090808;
-  color: var(--black-0);
+  background-color: #111111;
+  color: #ffff;
+  height: 3000px;
 }
 
 ul{

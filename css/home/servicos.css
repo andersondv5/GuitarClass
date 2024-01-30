@@ -1,0 +1,17 @@
+.servicos-bg{
+  background-color: var(--white-0);
+  padding: 60px 0;
+}
+
+.servicos-conteudo{
+  text-align: center;
+}
+
+.servicos-conteudo p{
+  padding: 34px 0;
+}
+
+.servicos-images{
+  display: flex;
+  gap: 30px;
+}

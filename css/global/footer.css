@@ -1,0 +1,17 @@
+.footer-bg img{
+  width: 100%;
+  object-fit: contain;
+}
+
+.footer-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.footer-conteudo {
+  padding: 40px 0;
+}
+
+.footer-conteudo{
+  text-align: center;
+}

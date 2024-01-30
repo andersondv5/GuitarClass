@@ -1,22 +1,38 @@
 .header-bg{
-  background-color: #080909;
+  background-image: url("../../img/imagens/bg-intro-2.jpg");
+  z-index: -10000;
+  height: 950px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-align: center;
 }
 
 .header {
   display: flex;
   align-items: center;
-  max-width: 1130px;
   justify-content: space-between;
-  padding: 40px 0;
+  padding: 40px;
 }
 
-.logo{
-  color: #FA6254;
+.redes{
+  display: flex;
+  gap: 20px;
 }
+
+.agenda{
+  border: 2px solid var(--white-0);
+  padding: 10px;
+  border-radius: 2px;
+}
+
+.agenda:hover{
+  border: 2px solid var(--red-1);
+}
+
 
 .menu a{
   transition: .4s;
-  color: var(--gray-0);
+  color: var(--white-0);
 }
 
 .menu {
@@ -42,7 +58,7 @@
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .header {
     transition: 0.2s;
     padding: 20px 0;
