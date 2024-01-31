@@ -35,6 +35,10 @@
   border: 1px solid #efefef;
 }
 
+.pacote-on{
+  border: 2px solid var(--red-2);
+}
+
 .pacotes-item ul {
   padding-top: 14px;
 }
@@ -63,7 +67,7 @@
   transform: scale(1.1);
 }
 
-.pacotes-item button {
+.btn-on {
   cursor: pointer;
   background: rgb(47, 9, 1);
   background: linear-gradient(
@@ -72,6 +76,14 @@
     rgb(164, 58, 34) 38%,
     rgba(238, 34, 17, 1) 96%
   );
+  border-radius: 4px;
+  padding: 12px 20px;
+  transition: 0.2s;
+}
+
+.btn-off {
+  cursor: pointer;
+  background: #595959;
   border-radius: 4px;
   padding: 12px 20px;
   transition: 0.2s;
