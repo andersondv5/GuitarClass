@@ -1,11 +1,7 @@
 .introducao-bg{
   background-image: url("../../img/imagens/bg-intro-2.jpg");
-  z-index: -10000;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  text-align: center;
 }
-
 
 #nav.active #logo{
   display: none;
@@ -30,7 +26,7 @@
 }
 
 .agenda{
-  border: 2px solid var(--white-0);
+  border: 2px solid var(--gray-2);
   padding: 10px;
   border-radius: 2px;
 }
@@ -41,7 +37,7 @@
 
 .menu a{
   transition: .4s;
-  color: var(--white-0);
+  color: var(--gray-2);
 }
 
 .menu {

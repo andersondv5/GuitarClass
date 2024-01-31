@@ -1,11 +1,10 @@
-/*  */
-
-.introducao-bg{
-  padding: 120px 0;
+.introducao-conteudo{
+  padding-top: 120px;
+  padding-bottom: 300px;
 }
 
 .introducao-conteudo{
-  padding-bottom: 300px;
+  text-align: center;
 }
 
 .introducao-conteudo h1 {
