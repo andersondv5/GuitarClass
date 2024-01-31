@@ -1,10 +1,11 @@
-.introducao-bg {
-  background-image: url("../../img/imagens/bg-intro-2.jpg");
-  z-index: -10000;
-  height: 815px;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  text-align: center;
+/*  */
+
+.introducao-bg{
+  padding: 120px 0;
+}
+
+.introducao-conteudo{
+  padding-bottom: 300px;
 }
 
 .introducao-conteudo h1 {
