@@ -37,6 +37,12 @@
 
 .pacote-on{
   border: 2px solid var(--red-2);
+  padding: 40px 80px;
+}
+
+.pacote-off{
+  height: 440px;
+  margin-top: 60px;
 }
 
 .pacotes-item ul {
@@ -108,6 +114,12 @@
 }
 
 @media (max-width: 420px){
+
+
+  .pacote-on{
+    border: 2px solid var(--red-3);
+    padding: initial;
+  }
 
   #agenda h1{
     font-size: 38px;
